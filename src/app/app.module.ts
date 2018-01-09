@@ -11,6 +11,8 @@ import { HomeComponent } from './pages/home/home.component';
 
 import { routing } from './app.routes';
 import { ReportComponent } from './pages/report/report.component';
+import { LoginComponent } from './pages/login/login.component';
+import { HeaderWidgetComponent } from './widgets/header-widget/header-widget.component';
 
 
 
@@ -20,6 +22,8 @@ import { ReportComponent } from './pages/report/report.component';
     ReportComponent,
     HomeComponent,
     ReportComponent,
+    LoginComponent,
+    HeaderWidgetComponent,
   ],
   imports: [
     BrowserModule,
